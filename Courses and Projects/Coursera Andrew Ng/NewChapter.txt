@@ -1,0 +1,249 @@
+																							   										MACHINE LEARNING COURSE
+
+20th June 2019:
+
+	I've started a course related to machine learning on Coursera. The course is from Stanford Professor and I've heard a lot about this course. I began with the introduction in which he told where Machine Learning is used and how it is the most in demand skill nowadays.
+
+	Actually I started with this course because I want to become a part of GSoC 2020 and one of the organisations I've chosen is Tensorflow(I just saw one video in which a guy explains Tensorboard and to be honest I didn't understand a single thing he said but it was really fascinating :)). So, I'm really looking forward to completing this course and start contributing to Tensorflow.
+
+	In 'What is Machine Learning?' Andrew Ng told the definitions of machine learning and a story related to checkers by a guy named Arthur Samuel. He also said there are two types of ML: 1. Supervised Ml(We teach machine what to do) 2. Unsupervised ML(Machines teach themselves what to do)
+
+	In 'Supervised Learning', we know what kind of output we are going to get and also that there is some specific relationship between input and output. In Supervised learning, a machine learning problem can be divided into 'Regression' and 'Classification' problem. In Regression, we are trying to predict the output as a continuous entity(ex. selling price of a house) while in Classification, we are trying to predict the output as a discrete entity(ex. whether house will sell for more price or less price than a specified amount)
+
+21st June 2019:
+
+	This day began with 'Unsupervised Learning' class. Initially, it took me some time to grasp the concept but, I think now I understand it properly. Now, in Unsupervised Learning, we don't know the behavior of output like we did in Supervised learning(for ex. whether a tumor is malignant or benign). So, we use Unsupervised learning in the cases where we don't have enough information regarding what our results should look like. We can derive the structure of data where we don't necessarily know effects of variables. We can derive this structure by CLUSTERING data based on relationship among variables in data.Plus, there is one more difference I noticed. Generally, the clustering is never done between two classes(like in Supervised).
+	For ex. Provided dataset of 1,000,000 DNA samples, cluster those samples based on lifespan, location, roles
+	and so on.
+
+	The basic overview of whole course is finally completed. They asked us to give one quiz related to all the concepts in ML which was fairly easy(I scored 100%). Now, we've started going through real Machine Learning Algorithms. The first algorithm is Linear Regression with One Variable.
+
+	In this algorithm, we try to predict the value of target variable using one variable(x). The example we have chosen is of House Price Prediction. We have a dataset with x-The size of house(in sq.feet) and y-Price of house. The model is : We are going to provide this dataset to Algorithm which will give us a function(h which stands for Hypothesis). This function will ultimately give us cost of our house.
+
+	Now, in Linear Regression, we are going to plot a straight line which will most precisely(depends upon the model) predict the behavior of data. The equation of this straight line will depend on values of m and c. We made a cost function which is going to predict the values of m and c. This cost function is going to work on our dataset to predict the value m and c so that h(x) is close to y for our training examples.
+
+22nd June 2019:
+
+	Watched "Cost Function Intuition" with closed eyes
+
+23rd June 2019:
+
+	I rewatched "Cost Function Intuition" in which Andrew explained how cost function is going to work. The cost function is an error function of our algorithm and it is going to predict values of our parameters, on the basis of which we are going to plot our hypothesis. One thing I want to emphasize here on is that y is not equal to h(theta). We already have y and we are predicting values of parameters based on h(theta) and y difference. That's basically what our equation says as well. We want our hypothesis to be as close as possible to real linear trend in the dataset. So, the cost function is going to predict the values of parameters so that the distance between real value and hypothesized value is minimum.
+
+	We also used Contour plots which is just the top view of 3-dimensional graph wrt the variable we want to reduce(in this context).
+
+	To predict the values of parameters, we are going to use "Gradient Descent Algorithm". In this algorithm, we plot the values of parameters with cost function and find where the cost function has least value. We have an equation based on derivatives to do this(and it is really cool, it adjusts itself so that we don't even have to change the value of learning rate).
+
+	But, we have only seen the working of GDA and next we are going to use this algorithm to find most suitable values of parameters.
+
+24th June till 11th July 2019:
+
+	Nothing :(
+
+12th July 2019:
+
+	I started with 'Multi-variate Linear Regression'. In the previous Regression, the hypothesis depended only on single feature(size of the house). In Multivariate Linear Regression, the hypothesis depends on multiple variables. Continuing with the same example, our hypothesis depend on 4 variables here and those are- 1)Size of House 2)Number of floors 3)Age of the house 4)Number of bedrooms.
+
+	The hypothesis equation also changes, including more number of parameters. One for each feature.
+
+	Andrew has specified an intelligent way of representing our Hypothesis function. He used Theta(transpose) multiplied with the x vector. One thing to note here is that, when we use vector, it is just the matrix representation of the various values from the table.
+
+	The Gradient descent algorithm has only one change. We have written it according to our new notation i.e. the x in the term for partial derivative of cost function is replaced with x(j) (where j=0,...,n-number of features).
+
+	Practical tricks for making Gradient descent algorithm work well-
+	1)Feature Scaling and Mean Normalization:
+
+	If the scales of features to be plotted varies vastly then the ellipses will be skewed because of which GDA won't work well. This is because, Theta will descend quicly on small ranges and slowly on large ranges. So, to bring the scales within proper scale, we do Feature Scaling.
+
+	Feature Scaling=input/(max-min)
+
+	Mean Normalization=(input-average)/(max-min)
+
+	Andrew also emphasized on the fact that it is not necessary to bring the scale down COMPULSARILY accurate.
+	For ex. If we want -1<x<1 then scaling of 0<x<3 will be enough. But too much variation is not acceptable.
+
+	The main idea of Feature scaling is to make GDA speed up.
+
+	2)Making sure GDA is working correctly and choosing proper value of alpha(learning rate):
+
+	To make sure GDA works correctly, plot J(theta) v/s Number of iterations. If the graph decreases non-linearly(or linearly) with no. of iterations then it's working correctly.
+
+	Automatic convergence test-Declare convergence if J(θ) decreases by less than E in one iteration, where E is some small value such as 10**(−3). However in practice it's difficult to choose this threshold value.
+
+	Generally the graph increases with #iterations, if the value of alpha is too large(this means that we have started the GDA at right place but because of large alpha the value of J(theta overshoots))
+
+	To choose alpha, try different values like 0.001,0.003,0.01,0.03,etc.
+
+	**Important** When we say that we are trying different models we only mean that we are changing the equation of hypothesis. The model is chosen logically and mathematically. For ex.: Predicting house price over size of house- Logically the price should increase with size so we can't use quadratic model(in case we are using Polynomial regression) since it decreases for larger size values. So, we can use cubic model or square root based model. But, then when we use such models the feature scaling becomes really important.
+
+	Features and Polynomial Regression:
+	The accuracy of our model depends on features we choose as well. By trying different features, I mean using relations between available features.
+	Polynomial Regression is closely related to the idea of using different features. Suppose, we use a model with 3rd order equation. Then we use the Multivariate Linear Regression concept on Polynomial Regression(replacing higher order terms with variable names).
+
+13th July 2019:
+
+	In this video, we talk about Normal Equation to find the value of parameter theta which gives us minimum cost function value. This equation can be used in place of Gradient Descent Algorithm.
+
+	Normal equation solves for the value of theta analytically in one step. We don't need iterative steps like in GDA. In the "Normal Equation" method, we will minimize J by explicitly taking its derivatives with respect to the θj ’s, and setting them to zero.
+
+	The Normal Equation is as follows:
+
+	Theta = inverse(X'*X)*(X'y)
+	where, X = vector of features (m*n+1 dimensional vector) also called as Design 			  Matrix
+		   y = vector of output (m dimensional vector)
+
+	In Octave, the command for Normal Equation is- pinv(X'*X)*X'*y
+
+	One advantage of NE is that it doesn't require Feature Scaling.
+
+	Comparison between NE and GDA:
+				GDA										NE
+
+	Need to choose alpha					No need to choose alpha
+	Needs many iterations					Doesn't need iterations
+	Works well even when n is larger 		Here, calculating inv(X'X) which is 										n*n matrix slows down the process if 										 n is very large
+	Favored if n>=10**6						Favored for smaller n's(n<10**4)
+											Doesn't work for more complex algorithms like Logistic Regression in Classification
+
+	If X'*X is Non-invertible(which is very rare):
+	1)Redundant features(Linearly dependent):
+		ex. x1=size in sq. feet and x2=size in sq. m
+		    then x1=[(3.28)**2]*x2 which will make matrix non-invertible.
+		So, the solution is delete one of the two features
+
+	2)Too many features(m<=n):
+		Delete some features or use regularization.
+
+	Matlab Tutorial:
+
+	The basic operators are same as that in Python. Some additional features:
+
+	Basic Operations:
+		* Not equals --> ~=
+		* Adding a semicolon after variable declaration suppresses the displaying.
+		* Power operator --> ^
+		* Logical operators --> &&,||,xor(two variables to xor)
+		* disp() --> Used for more advanced printing	ex. disp(sprintf('2 decimals: %0.2f',a)) -- 3.1416
+		* format long and format short --> changes decimal digits after decimal point
+		* To declare the matrix --> A=[1 2; 3 4; 5 6;]
+		* v = 1:0.1:2 --> This will create a 1*11 vector
+		* Shortcut to create identity or null matrices --> ones(dimensions) and zeros(dimensions) ex.ones(1,3) gives [1 1 1]
+		* rand(dime) --> Creates matrix of random numbers(between 0 to 1) of given dimensions
+		* randn(dime) --> Similar as above except numbers are negative with mean=0 and variance=1
+		* hist(matrix) --> Histogram of matrix with elements on x-axis
+		* eye(number) --> Identity matrix of number dimensions
+		* help command name
+		* size(matrix) --> returns dimensions of matrix (it returns as a matrix) ~size(A,dim) --> Returns the value of dimension for that Matrix
+
+	Working with data:
+		* load file.extension --> Loads the file into memory
+		* who --> Shows variables in memory(Use whos for detailed view)
+		* clear variableName --> Remove that variable from Memory(No parameter will delete all the variables)
+		* length --> Returns value of longest dimension
+		* pwd --> To see working directory
+		* cd --> To change directory
+		* ls --> List all directories
+		* save fileName.mat variable --> Save the content of variable in fileName.mat(This saves data in binary format which is more compressed)
+				To save data in Human Readable format, use save fileName.txt variable -ascii (Save as text ASCII)
+		* A(3,2) --> Access 3*2 element of A matrix ~A(2,:)-->Everything from 2nd row and A(:,2)-->Everything from 2nd column ~A([1 3],:)-->Access Everything from 1st and 3rd row
+		* A = [A,[Column Vector]] --> Add column vector to right of A
+		* A(:) --> Put all elements of A into a single vector
+		* C = [A B] --> Append A and B matrices side by side and C = [A; B] --> Append A and B matrices below each other
+		*[A B] is same as [A, B]
+
+14th July 2019:
+
+	So, I left off one of the lectures by mistake. It is an overview of Linear Algebra. Some of the key points are as follows:
+		1)Vectors are actually Matrices with single column.
+		2)Some vectors follow 1-indexing and some follow 0-indexing. If not specified assume 1-indexing.
+		3)Matrices are usually denoted by uppercase names while vectors are lowercase."Scalar" means that an object is a single value, not a vector or matrix.
+		4)Matrices of different dimensions cannot be added.
+		5)Matrix multiplication is Associative.
+		6)Matrix multiplication with Identity matrix is Commutative.
+		7)A non square matrix does not have an inverse matrix.
+
+15th July 2019:
+
+		The college is going to start now. So, I'll have to complete this course asap. Today, we are going to look at how to compute on data in Octave.
+		Following are key-points:
+		1).* --> Multiplies matrices element-wise(. Generally denotes element-wise in Octave)
+		2)log(matrix)
+		3)exp(matrix) --> e raised to elements
+		4)abs(matrix)
+		5)-A --> (-1)*A
+		6)v.+1 == v+1 == v + ones(length(v),1)
+		7)max(matrix) --> returns max of matrix column-wise
+		8)[val,ind] = max(vector) --> val is maximum and ind is index
+		9)A < 3 --> compares elements and shows 1 or 0
+		10)find(A<3) --> returns indexes
+		11)magic(number) --> creates a magic matrix of number dimension in which sum of columns, rows, diagonals is same Number
+		12)sum(A) --> Column-wise sum
+		13)sum(A(:)) --> All elements sum
+		14)prod(A) --> Product
+		15)floor(matrix) --> Round-down and ceil(matrix) --> Round-up
+		16)max(A,[],1) == max(A) and max(A,[],2) --> max row-wise
+		17)max(max(A)) == max(A(:))
+		18)sum(A,1) == sum(A) and sum(A,2) --> Row-wise sum
+		19)flipud(matrix) --> Flip up and down
+
+		Plotting data:
+
+		1)plot(x1,y1,'color') --> ex. x1-t=[0:0.01:0.98] and y1=sin(2*pi*t*4)
+		2)hold on --> To plot two graphs on same figure
+		3)xlabel('name'),ylabel('name'),title('title'),legend(scale)
+		4)print -dpng 'name.extension' --> Save graph
+		5)close --> close figure
+		6)figure(1); plot(t,y1) and figure(2); plot(t,y2) --> Plot on multiple figures
+		7)subplot(2,2,1); plot(t,y1) --> Create a grid of 2*2 and plot on 1st position
+		8)axis([x1 x2 y1 y2]) --> change scale of axis from x1 to x2 on X-axis and y1 to y2 on Y-axis
+		9)clf --> Clear figure
+		10)imagesc(matrix) --> Create a colormap of matrix, colorbar --> Show colorbar and colormap gray --> Change color
+
+16th July 2019:
+
+	Control Statements: for, while, if statements and functions:
+	1) for i=1:10,
+				disp(i)
+			end;
+	2) while true,
+				disp('While loop')
+		end;
+	3) if condition == true,
+				do something,
+		elseif condition,
+				break;
+		else,
+				end;
+	4)Functions:
+			-Create a file of Function name with '.m' extension.
+			-function return value or [return,values] = Function name(parameters)
+			-Define the Function
+			-Call the function through Octave. For ex. J = costFunctionJ(X,y,Theta),X y and Theta are already defined
+
+
+17th July 2019:
+
+		The dates for the Design Workshop are coming closer. We have to start preparing for it. So, I don't think I'll be able to continue the course as fast as I think I can. But,after workshop I'll try to cover as much as possible.
+
+		Vectorization:
+
+		In Vectorization, we represent a set of equations in form of Matrices(Similar to the linear equation solving method we used in Maths). This results in Less code and faster implementation. So, rather than building a for loop, we can use Vectorization technique.
+
+
+18th July 2019:
+
+		Completed the Programming Assignment Successfully with grade 100%.
+
+20th July 2019:
+
+		I started with Classification Algorithms today. First one is Logistic Regression. Even though it has Regression in it, it still is a Classification Algorithm.
+
+		In Classification the y takes discrete values like {0,1}. An example of classification problem is Email:spam or not, Tumor: malignant or benign, etc. Here, the class 0 can be called Negative class and 1 can be called Positive class. Generally, Negative class denotes absence of something and positive class denotes presence of something. Ex. 0-Benign and 1-Malignant. But, the assignment of these classes is completely arbitrary.
+
+		Initially we'll deal with Binary class classification problem. But, afterwards we'll start talking about Multi-class Classification problem.
+
+		Applying Linear Regression to a Classification problem may work but then addition of another data point may cause it to give wrong results.
+
+		Logistic Regression:
+
+		An important property of Logistic Regression is that 
