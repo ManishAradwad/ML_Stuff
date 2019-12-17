@@ -1,0 +1,71 @@
+Text embedding modules in tensorflow hub
+-End-to-End mobile swift for Tensorflow application
+-Data visualisation library for Swift
+An extended version of "A Concise Handbook of Tensorflow" and A library of Extended Keras layers for TF 2.0
+-Tensorflow hub module creation and support for Tensorflow.js
+Tensorflow official model migration to v2.0
+Adding curiosity to TF-Agents
+Adding traditional ml algorithms to swift for tensorflow
+-Adding and standardizing image processing operations in tf.image
+-ReactNative Exploration
+-Core model migration to Tfv2.0
+-Tensorflow.js with WebWorker
+The reasoanble effectiveness of mobile interface: Adaptive growth of tensoflow.js model garden
+-Add traditional ml algorithms to swift tf library
+-Debugging model performances in tensorboard guide
+Deep gaussian processes in tf
+-JSON dataset reader-tf i/o
+-Tensorflow datasets-implement key research data in tfds
+improving and adding more functionality to tensoflow datasets library with the addition of dataset builders for important research datasets
+Implementing "NeroEvolution of augmented topologies"(neat) in tf and integrating it into the tf ecosystem
+
+
+>>Improvements in tb front-end:
+TensorBoard is a suite of web applications for inspecting and understanding TensorFlow runs and graphs. It comes out-of-the-box with TF, and allows you to visualize graphs, histograms, and debug model performance.
+For this project, you would be working directly with the TensorBoard engineering team to:
+Improve visualizations for histograms and graphs.
+Add usability enhancements to existing TensorBoard plug-ins.
+Add support for exporting data and visuals from TensorBoard.
+Desired languages: Python, TypeScript, HTML
+
+>>>Github issues classification and clustering:
+The TensorFlow organization has many subprojects (at the time of this writing, nearly 80!), and tens of thousands of issues, both open and closed. Many of the issues are common support requests and error messages, not bugs: and it would be a huge win for the team to spot duplicated tickets!
+For this project, you would be responsible for analyzing all of the issues in the TensorFlow GitHub organization and clustering them into thematic buckets. Common issues would be added to a frequently asked questions page in the Tensorflow GitHub, and duplicated issues would be flagged for the engineering support team.
+Desired languages: Python, R
+
+>Adding support for tf.contrib.slim conversion:
+TF-Slim was a lightweight library for defining, training, and evaluating complex models in TensorFlow that has been removed in TF 2.0. Components of tf-slim were freely mixed with native TensorFlow. 
+The purpose of this project would be to create a migration guide for users who are converting projects containing tf.contrib.slim to TF 2.0. You would be responsible for:
+Creating replacement code for common code patterns
+Creating conversion tooling to allow gradual code conversion
+Creating a comprehensive guide, including code samples
+Desired languages: Python
+
+>Making core ml tools compatible with tf.keras:
+Core ML community tools contains all supporting tools for Apple’s CoreML model conversion and validation. This includes scikit-learn, LIBSVM, Caffe, Keras (backed with TensorFlow), and XGBoost.
+Currently, coremltools’ support for TensorFlow is for versions <= 1.12, and stand-alone Keras. This project would be responsible for making CoreMLTools compatible with TF 2.0 and tf.keras.
+Desired languages: Python, C++
+
+>Transfer learning project with TF-Hub:
+Have a good idea for an interesting transfer learning task or set of tasks that would benefit from TF-Hub? This could, for example, be a task from Kaggle or a common research problem. If the task is common enough, we could also potentially add it to TensorFlow Datasets.
+Desired languages: Python.
+	
+>>Tensorflow lite end-to-end application:
+TensorFlow Lite is the official solution for running machine learning models on mobile and embedded devices. It enables on-device machine learning inference with low latency and a small binary size on Android, iOS, and other operating systems. 
+For this project, you would create an end-to-end Android application with TFLite that would then be open-sourced as a template design pattern. You would be responsible for:
+Assessing common patterns for TFLite applications in the Android community
+Building and creating a machine learning model using TensorFlow with Keras
+Deploying the model to a mobile application using TFLite
+Documenting and open-sourcing the development process
+Desired languages: Python, Java
+
+>>High level TensorList API:
+Currently TensorFlow's only in-graph way of manipulating lists of tensors is TensorArray, which is a sad API that leaked the many hacks it had to do to support old tf 1.x behavior. Now that we have a better substract with the tensor list operations it's probably time to redesign a high level API for lists which is pythonic, efficient, and differentiable. All the C++ code already exists so this is purely a python project, consisting of implementing this new list class, writing tutorials and examples for it, and editing some existing models to use it.
+
+Desired languages: Python, C++
+
+>>Forward mode automatic differentiation in TensorFlow:
+Currently TensorFlow has no native support for forward-mode automatic differentiation. There are hacks (such as calling backward-mode twice while graph building in a special way and relying on pruning to never execute the redundant backward pass) but it'd be nice to have a good eager-and-graph-friendly prototype solution. This project could be done entirely in Python or on a mixture of Python and C++ or even entirely in C++, at the student's choice.
+
+Desired languages: Python, C++
+
