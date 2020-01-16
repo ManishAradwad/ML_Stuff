@@ -27,3 +27,14 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+dependencies {
+    implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly'
+}
+
+android {
+    //Andoid Asset Package Tool is told not to compress .tflite files. They contain all the memory map
+    aaptOptions {
+        noCompress "tflite"
+    }
+}
