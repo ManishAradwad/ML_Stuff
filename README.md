@@ -5,7 +5,7 @@ This repository is created to keep track of my attempts to learn about Machine L
 ## Courses:
 
 ### Kaggle - Python for Data Science : [Link to the Course](https://www.kaggle.com/learn/python)
-#### Status : Complete :dart:
+#### Status : Completed :dart:
 
 - [x] Lesson 1 - Hello, Python
 - [x] Lesson 2 - Functions and Getting Help
@@ -36,7 +36,7 @@ This repository is created to keep track of my attempts to learn about Machine L
 
 
 ### Udacity - Intro to Tensorflow for Deep Learning : [Link to the Course](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
-#### Status : Complete :dart:
+#### Status : Completed :dart:
 
 - [x] Lesson 1 - Intro to ML
 - [x] Lesson 2 - Fashion MNIST
@@ -48,7 +48,7 @@ This repository is created to keep track of my attempts to learn about Machine L
 
 
 ### Udacity - Intro to Tensorflow Lite : [Link to the Course](https://www.udacity.com/course/intro-to-tensorflow-lite--ud190)
-#### Status : Complete :dart:
+#### Status : Completed :dart:
 
 - [x] Lesson 1 - Intro to Tensorflow Lite
 - [x] Lesson 2 - TFLite On Android
