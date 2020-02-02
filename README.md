@@ -48,13 +48,10 @@ This repository is created to keep track of my attempts to learn about Machine L
 
 
 ### Udacity - Intro to Tensorflow Lite : [Link to the Course](https://www.udacity.com/course/intro-to-tensorflow-lite--ud190)
-#### Status : Ongoing :memo:
+#### Status : Complete :dart:
 
 - [x] Lesson 1 - Intro to Tensorflow Lite
 - [x] Lesson 2 - TFLite On Android
-- [ ] Lesson 3 - TFLite On iOS with Swift
-- [ ] Lesson 4 - TFLite On IoT 
-
 
 
 
