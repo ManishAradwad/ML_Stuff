@@ -30,13 +30,13 @@ X = [ones(m, 1) X];
 %       for each row.
 %       
 
-
-
-
-
-
-
+for i = 1:size(X,1)
+    [temp1, temp2] = max(X(i,:) * all_theta');
+    if temp2 == 0
+        p(i) = 10;
+    else
+        p(i) = temp2;
+    end
+end
 % =========================================================================
-
-
 end
