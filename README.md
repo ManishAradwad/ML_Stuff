@@ -23,7 +23,7 @@ This repository is created to keep track of my attempts to learn about Machine L
 - [x] Week 1 - Introduction to ML | Linear Regression with One Variable | Linear Algebra Review
 - [x] Week 2 - Linear Regression with Multiple Variables | Octave/Matlab Tutorial
 - [x] Week 3 - Logistic Regression | Regularization
-- [ ] Week 4 - Neural Networks : Representation 
+- [x] Week 4 - Neural Networks : Representation 
 - [ ] Week 5 - Neural Networks : Learning
 - [ ] Week 6 - Advice for applying Machine Learning | Machine Learning System Design
 - [ ] Week 7 - Support Vector Machines
