@@ -36,7 +36,7 @@ This repository is created to keep track of my attempts to learn about Machine L
 ### Coursera - Neural Networks and Deep Learning : [Link to the Course](https://www.coursera.org/learn/neural-networks-deep-learning)
 #### Status : Ongoing :memo:
 
-- [ ] Week 1 - Introduction to Deep Learning
+- [x] Week 1 - Introduction to Deep Learning
 - [ ] Week 2 - Neural Networks Basics
 - [ ] Week 3 - Shallow Neural Networks
 - [ ] Week 4 - Deep Neural Networks
