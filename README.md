@@ -33,6 +33,13 @@ This repository is created to keep track of my attempts to learn about Machine L
 - [ ] Week 11 - Application Example: Photo OCR
 
 
+### Coursera - Neural Networks and Deep Learning : [Link to the Course](https://www.coursera.org/learn/neural-networks-deep-learning)
+#### Status : Ongoing :memo:
+
+- [ ] Week 1 - Introduction to Deep Learning
+- [ ] Week 2 - Neural Networks Basics
+- [ ] Week 3 - Shallow Neural Networks
+- [ ] Week 4 - Deep Neural Networks
 
 
 ### Udacity - Intro to Tensorflow for Deep Learning : [Link to the Course](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
