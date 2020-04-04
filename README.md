@@ -37,7 +37,7 @@ This repository is created to keep track of my attempts to learn about Machine L
 #### Status : Ongoing :memo:
 
 - [x] Week 1 - Introduction to Deep Learning
-- [ ] Week 2 - Neural Networks Basics
+- [x] Week 2 - Neural Networks Basics
 - [ ] Week 3 - Shallow Neural Networks
 - [ ] Week 4 - Deep Neural Networks
 
