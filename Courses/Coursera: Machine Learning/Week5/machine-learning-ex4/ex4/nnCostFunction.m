@@ -73,7 +73,7 @@ for i = 1:num_labels
     yVec(i,:) = (y==i);
 end
 
-J = sum(sum((-yVec .* log(h)) - (1-yVec) .* log(1-h)))/m;
+J = sum(sum((-yVec .* log(h)) - (1-yVec) .* log(1-h)))/m + lambda * (sum(sum(Theta1(:,2:end) .* Theta1(:,2:end))) + sum(sum(Theta2(:,2:end) .* Theta2(:,2:end))))/(2*m) ;
 
 % -------------------------------------------------------------
 
