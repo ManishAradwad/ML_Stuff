@@ -38,7 +38,7 @@ This repository is created to keep track of my attempts to learn about Machine L
 
 - [x] Week 1 - Introduction to Deep Learning
 - [x] Week 2 - Neural Networks Basics
-- [ ] Week 3 - Shallow Neural Networks
+- [x] Week 3 - Shallow Neural Networks
 - [ ] Week 4 - Deep Neural Networks
 
 
