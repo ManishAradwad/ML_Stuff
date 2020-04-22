@@ -16,15 +16,6 @@ This repository is created to keep track of my attempts to learn about Machine L
 - [x] Lesson 7 - Working with External Libraries
 
 
-### Coursera - Neural Networks and Deep Learning : [Link to the Course](https://www.coursera.org/learn/neural-networks-deep-learning)
-#### Status : Completed :dart: - [Course Certificate](https://github.com/ManishAradwad/ML_Stuff/blob/master/Courses/Coursera:%20Deep%20Learning%20Specialisation/Course%201%20:%20Neural%20Networks%20and%20Deep%20Learning/Course%20Certificate.pdf)
-
-- [x] Week 1 - Introduction to Deep Learning
-- [x] Week 2 - Neural Networks Basics
-- [x] Week 3 - Shallow Neural Networks
-- [x] Week 4 - Deep Neural Networks
-
-
 ### Udacity - Intro to Tensorflow for Deep Learning : [Link to the Course](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
 #### Status : Completed :dart:
 
@@ -42,6 +33,25 @@ This repository is created to keep track of my attempts to learn about Machine L
 
 - [x] Lesson 1 - Intro to Tensorflow Lite
 - [x] Lesson 2 - TFLite On Android
+
+
+### Coursera - Deep Learning Specialization 
+
+### Course 1 - Neural Networks and Deep Learning : [Link to the Course](https://www.coursera.org/learn/neural-networks-deep-learning)
+#### Status : Completed :dart: - [Course Certificate](https://github.com/ManishAradwad/ML_Stuff/blob/master/Courses/Coursera:%20Deep%20Learning%20Specialisation/Course%201%20:%20Neural%20Networks%20and%20Deep%20Learning/Course%20Certificate.pdf)
+
+- [x] Week 1 - Introduction to Deep Learning
+- [x] Week 2 - Neural Networks Basics
+- [x] Week 3 - Shallow Neural Networks
+- [x] Week 4 - Deep Neural Networks
+
+
+### Course 2 - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization : [Link to the Course](https://www.coursera.org/learn/deep-neural-network)
+#### Status : Ongoing :memo:
+
+- [ ] Week 1 - Practical Aspects of Deep Learning
+- [ ] Week 2 - Optimization Algorithms
+- [ ] Week 3 - Hyperparameter tuning, Batch Normalization and Programming Frameworks
 
 
 ### Coursera - Machine Learning : [Link to the Course](https://www.coursera.org/learn/machine-learning?utm_source=gg&utm_medium=sem&utm_content=07-StanfordML-IN&campaignid=1950458127&adgroupid=71501032500&device=c&keyword=coursera%20machine%20learning&matchtype=e&network=g&devicemodel=&adpostion=1t1&creativeid=351294671923&hide_mobile_promo&gclid=Cj0KCQiA4NTxBRDxARIsAHyp6gDFyuUJZClI9WPaYKzGUn6OfQYw1AgfMTSkeHLkb-9chkYQoyvzTpgaAh03EALw_wcB)
