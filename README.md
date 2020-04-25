@@ -49,7 +49,7 @@ This repository is created to keep track of my attempts to learn about Machine L
 ### Course 2 - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization : [Link to the Course](https://www.coursera.org/learn/deep-neural-network)
 #### Status : Ongoing :memo:
 
-- [ ] Week 1 - Practical Aspects of Deep Learning
+- [x] Week 1 - Practical Aspects of Deep Learning
 - [ ] Week 2 - Optimization Algorithms
 - [ ] Week 3 - Hyperparameter tuning, Batch Normalization and Programming Frameworks
 
