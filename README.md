@@ -47,11 +47,11 @@ This repository is created to keep track of my attempts to learn about Machine L
 
 
 ### Course 2 - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization : [Link to the Course](https://www.coursera.org/learn/deep-neural-network)
-#### Status : Ongoing :memo:
+#### Status : Completed :dart: - [Course Certificate](https://github.com/ManishAradwad/ML_Stuff/blob/master/Courses/Coursera:%20Deep%20Learning%20Specialisation/Course%202%20:%20Improving%20Deep%20Neural%20Networks%20-%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/Course_Certificate.pdf)
 
 - [x] Week 1 - Practical Aspects of Deep Learning
 - [x] Week 2 - Optimization Algorithms
-- [ ] Week 3 - Hyperparameter tuning, Batch Normalization and Programming Frameworks
+- [x] Week 3 - Hyperparameter tuning, Batch Normalization and Programming Frameworks
 
 
 ### Coursera - Machine Learning : [Link to the Course](https://www.coursera.org/learn/machine-learning?utm_source=gg&utm_medium=sem&utm_content=07-StanfordML-IN&campaignid=1950458127&adgroupid=71501032500&device=c&keyword=coursera%20machine%20learning&matchtype=e&network=g&devicemodel=&adpostion=1t1&creativeid=351294671923&hide_mobile_promo&gclid=Cj0KCQiA4NTxBRDxARIsAHyp6gDFyuUJZClI9WPaYKzGUn6OfQYw1AgfMTSkeHLkb-9chkYQoyvzTpgaAh03EALw_wcB)
