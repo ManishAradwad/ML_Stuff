@@ -54,6 +54,13 @@ This repository is created to keep track of my attempts to learn about Machine L
 - [x] Week 3 - Hyperparameter tuning, Batch Normalization and Programming Frameworks
 
 
+### Course 3 - Structuring Machine Learning Projects : [Link to the Course](https://www.coursera.org/learn/machine-learning-projects/)
+#### Status : Ongoing :memo:
+
+- [ ] Week 1 - ML Strategy (1)
+- [ ] Week 2 - ML Strategy (2)
+
+
 ### Coursera - Machine Learning : [Link to the Course](https://www.coursera.org/learn/machine-learning?utm_source=gg&utm_medium=sem&utm_content=07-StanfordML-IN&campaignid=1950458127&adgroupid=71501032500&device=c&keyword=coursera%20machine%20learning&matchtype=e&network=g&devicemodel=&adpostion=1t1&creativeid=351294671923&hide_mobile_promo&gclid=Cj0KCQiA4NTxBRDxARIsAHyp6gDFyuUJZClI9WPaYKzGUn6OfQYw1AgfMTSkeHLkb-9chkYQoyvzTpgaAh03EALw_wcB)
 #### Status : Ongoing :memo:
 
