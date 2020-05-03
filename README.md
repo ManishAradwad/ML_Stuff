@@ -57,7 +57,7 @@ This repository is created to keep track of my attempts to learn about Machine L
 ### Course 3 - Structuring Machine Learning Projects : [Link to the Course](https://www.coursera.org/learn/machine-learning-projects/)
 #### Status : Ongoing :memo:
 
-- [ ] Week 1 - ML Strategy (1)
+- [x] Week 1 - ML Strategy (1)
 - [ ] Week 2 - ML Strategy (2)
 
 
