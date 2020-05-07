@@ -65,7 +65,7 @@ This repository is created to keep track of my attempts to learn about Machine L
 #### Status : Ongoing :memo:
 
 - [x] Week 1 - Foundation of Convolutional Neural Networks
-- [ ] Week 2 - Deep Convolutional Models : Case Studies
+- [x] Week 2 - Deep Convolutional Models : Case Studies
 - [ ] Week 3 - Object Detection
 - [ ] Week 4 - Special Applications : Face Recognition and Neural Style Transfer
 
