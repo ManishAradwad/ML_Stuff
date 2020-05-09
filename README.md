@@ -67,7 +67,7 @@ This repository is created to keep track of my attempts to learn about Machine L
 - [x] Week 1 - Foundation of Convolutional Neural Networks
 - [x] Week 2 - Deep Convolutional Models : Case Studies
 - [x] Week 3 - Object Detection
-- [ ] Week 4 - Special Applications : Face Recognition and Neural Style Transfer
+- [x] Week 4 - Special Applications : Face Recognition and Neural Style Transfer
 
 
 ### Coursera - Machine Learning : [Link to the Course](https://www.coursera.org/learn/machine-learning?utm_source=gg&utm_medium=sem&utm_content=07-StanfordML-IN&campaignid=1950458127&adgroupid=71501032500&device=c&keyword=coursera%20machine%20learning&matchtype=e&network=g&devicemodel=&adpostion=1t1&creativeid=351294671923&hide_mobile_promo&gclid=Cj0KCQiA4NTxBRDxARIsAHyp6gDFyuUJZClI9WPaYKzGUn6OfQYw1AgfMTSkeHLkb-9chkYQoyvzTpgaAh03EALw_wcB)
