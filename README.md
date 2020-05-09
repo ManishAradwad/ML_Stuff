@@ -62,9 +62,9 @@ This repository is created to keep track of my attempts to learn about Machine L
 
 
 ### Course 4 - Convolutional Neural Networks : [Link to the Course](https://www.coursera.org/learn/convolutional-neural-networks)
-#### Status : Ongoing :memo:
+#### Status : Completed :dart: - [Course Certificate](https://github.com/ManishAradwad/ML_Stuff/blob/master/Courses/Coursera:%20Deep%20Learning%20Specialisation/Course%204%20:%20Convolutional%20Neural%20Networks/Course%20Certificate.pdf)
 
-- [x] Week 1 - Foundation of Convolutional Neural Networks
+- [x] Week 1 - Foundation of Convolutional Neural Networkshttps://github.com/ManishAradwad/ML_Stuff/blob/master/Courses/Coursera:%20Deep%20Learning%20Specialisation/Course%204%20:%20Convolutional%20Neural%20Networks/Course%20Certificate.pdf
 - [x] Week 2 - Deep Convolutional Models : Case Studies
 - [x] Week 3 - Object Detection
 - [x] Week 4 - Special Applications : Face Recognition and Neural Style Transfer
